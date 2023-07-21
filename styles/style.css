@@ -928,13 +928,13 @@ html {
 
 @media (max-width: 767px) {
   .hero-title {
-    margin-top: 3vh;
+    margin-top: 20vh;
   }
 
-  /* .hero-title::before {
-
-  } */
+  .hero-title::before {
+    margin: auto;
+  }
   .hero-bg-img {
-    display: none;
+    top: 20%;
   }
 }
