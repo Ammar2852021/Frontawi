@@ -907,4 +907,8 @@ html {
   .main__footer {
     padding: 10px;
   }
+
+  .carousel__item-body {
+    width: 80%;
+  }
 }
