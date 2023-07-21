@@ -890,6 +890,12 @@ html {
 }
 
 @media (max-width: 992px) {
+  .navbar:not(.menu-open)::before,
+  .navbar:not(.menu-open) .offCanvasMenu,
+  .navbar:not(.menu-open) .navbar__links {
+    display: none;
+  }
+
   #section-content {
     display: block;
   }
@@ -914,6 +920,9 @@ html {
 
   .span_class {
     display: none;
+  }
+  .header .container {
+    padding: 10px;
   }
 }
 
