@@ -877,3 +877,23 @@ html {
   bottom: 0;
   height: 100vh;
 }
+
+.span_class {
+  font-size: 1.2rem;
+  width: 100%;
+  position: sticky;
+  z-index: 9999;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: hsl(var(--bg-color-reverse));
+}
+
+@media (max-width: 992px) {
+  #section-content {
+    display: block;
+  }
+  .rol {
+    margin: 15vh 0vh 20vh 0vh;
+  }
+}
