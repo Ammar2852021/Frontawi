@@ -928,14 +928,20 @@ html {
 
 @media (max-width: 767px) {
   .hero-title {
-    margin-top: 20vh;
+    margin-top: 22vh;
     text-align: center;
   }
 
   .hero-title::before {
     margin: auto;
+    margin-bottom: 2vh;
+    width: 60%;
   }
   .hero-bg-img {
-    top: 10%;
+    top: 20%;
+    left: 42%;
+  }
+  .img-fluid {
+    max-width: 120%;
   }
 }
