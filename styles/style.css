@@ -588,9 +588,9 @@ li.portfolio__loadMore {
 /* ............................/
 ..............................................
 ............................................ */
-html {
+/* html {
   font-size: 65.5%;
-}
+} */
 
 /* General styling */
 .position-relative {
@@ -795,11 +795,12 @@ html {
   border-top: 0.6rem solid hsl(var(--bg-color-reverse));
   width: 13rem;
   margin-bottom: 2rem;
+  margin-top: -20vh;
 }
 
 .hero-heading {
   line-height: 4.5rem;
-  position: static;
+  position: absolute;
   z-index: 999;
   color: hsl(var(--bg-color-reverse));
   font-size: 4.5rem;
@@ -815,7 +816,7 @@ html {
 
 .hero-bg-img {
   position: absolute;
-  top: 38%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: min(53.125%, 1020px);
@@ -890,6 +891,10 @@ html {
 }
 
 @media (max-width: 992px) {
+  html {
+    font-size: 65.5%;
+  }
+
   .navbar:not(.menu-open)::before,
   .navbar:not(.menu-open) .offCanvasMenu,
   .navbar:not(.menu-open) .navbar__links {
