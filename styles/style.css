@@ -911,4 +911,22 @@ html {
   .carousel__item-body {
     width: 80%;
   }
+
+  .span_class {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    margin-top: 20vh;
+    text-align: center;
+  }
+
+  .hero-title::before {
+    margin: auto;
+  }
+  .hero-bg-img {
+    top: 23%;
+  }
 }
