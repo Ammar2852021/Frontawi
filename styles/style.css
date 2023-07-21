@@ -895,5 +895,14 @@ html {
   }
   .rol {
     margin: 15vh 0vh 20vh 0vh;
+    width: 
+    100%;
+    overflow: hidden;
+  }
+  .contact__formHolder {
+    width: 100%;
+  }
+  .contact__text {
+    width: 80%;
   }
 }
