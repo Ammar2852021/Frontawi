@@ -1109,4 +1109,14 @@ div#section-content {
 
     -webkit-flex-flow: nowrap;
   }
+  .hero-title {
+    display: none;
+  }
+  .img-fluid {
+    max-width: 500px;
+  }
+  .hero-bg-img {
+    top: 48%;
+    left: 11%;
+  }
 }
