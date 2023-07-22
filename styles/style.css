@@ -1017,9 +1017,10 @@ li.portfolio__loadMore {
 
 .folder-card {
   background-color: hsl(var(--bg-color-two));
-  padding: 1rem;
+  padding: 1rem 1rem 0.2rem 1rem;
   z-index: 1;
   cursor: pointer;
+  margin-bottom: 2vh;
 }
 /* .folder-card:hover,
 .folder-card:focus {
