@@ -1074,6 +1074,9 @@ li.portfolio__loadMore {
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
+  .folder-card + .folder-card{
+    margin-left: 0;
+  }
   ::-webkit-scrollbar {
     width: 0px;
     border-radius: 10px;
