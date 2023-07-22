@@ -1064,3 +1064,18 @@ li.portfolio__loadMore {
   right: -5px;
   top: -5px;
 }
+
+@media (max-width: 767px) {
+  .divs {
+    overflow: auto;
+  }
+  .folder-card-wrap {
+    margin: 0;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    border-radius: 10px;
+  }
+}
