@@ -289,10 +289,10 @@ svg#Cer {
   }
 }
 
-#section-content {
+/* #section-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+} */
 
 /* .................. */
 /* html {
@@ -949,4 +949,118 @@ li.portfolio__loadMore {
   .img-fluid {
     max-width: 120%;
   }
+}
+
+.task-card__option--attachment:after,
+.task-card__option--due:after,
+.task-card__option,
+.task-card__checkmark,
+.folder-card.notification:after,
+.folder-card__icon:before,
+.search-bar-icn,
+.main-nav__link:before {
+  position: absolute;
+}
+
+.task-card,
+.folder-card__icon,
+.folder-card,
+.search-wrap {
+  position: relative;
+}
+
+.task-card__option--attachment:after,
+.task-card__option--due:after,
+.task-card__checkmark,
+.project-card__icon--add,
+.notification-bell,
+.email-link,
+.search-bar-icn,
+.account__indicator:after,
+.main-nav__link:before {
+  font-family: "Material Icons Outlined" !important;
+}
+
+.search-bar::-moz-placeholder {
+  font-weight: 700;
+}
+
+.search-bar:-ms-input-placeholder {
+  font-weight: 700;
+}
+.task-wrap,
+.project-card,
+.folder-card {
+  border-radius: 0.625rem;
+}
+
+.current-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 1rem;
+  margin-left: 3.0625rem;
+}
+.current-date__time {
+  font-size: 2rem;
+}
+.current-date__day {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.folder-card-wrap {
+  display: flex;
+  gap: 3%;
+  margin: 20px 50px;
+}
+
+.folder-card {
+  background-color: hsl(var(--bg-color-two));
+  padding: 1rem;
+  z-index: 1;
+  cursor: pointer;
+}
+/* .folder-card:hover,
+.folder-card:focus {
+  background-color: hsl(var(--bg-color-two));
+  cursor: pointer;
+} */
+.folder-card:active {
+  background-color: #bcd4e7;
+}
+.folder-card + .folder-card {
+  margin-left: 1rem;
+}
+.folder-card__icon {
+  background-color: #74a3ff;
+  border-radius: 0 10px 10px 10px;
+  width: 63px;
+  height: 42px;
+}
+.folder-card__icon:before {
+  background: linear-gradient(45deg, #508bff 45%, rgba(255, 255, 255, 0) 45%);
+  border-top-left-radius: 7px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.625rem;
+  top: -0.625rem;
+  z-index: -1;
+}
+.folder-card__title {
+  display: block;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.folder-card.notification:after {
+  width: 0.625rem;
+  height: 0.625rem;
+  content: "";
+  display: inline-block;
+  background-color: red;
+  border: 6px solid white;
+  border-radius: 50%;
+  right: -5px;
+  top: -5px;
 }

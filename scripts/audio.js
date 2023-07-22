@@ -8,3 +8,11 @@ audio.addEventListener("click", function () {
   let utterance = new SpeechSynthesisUtterance(text.innerText);
   speechSynthesis.speak(utterance);
 });
+
+
+
+
+
+
+
+
